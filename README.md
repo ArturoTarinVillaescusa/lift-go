@@ -1,4 +1,16 @@
-## These are my assumptions for this project
+## Project objective
+Build a Lift control system capable to manage:
+
+ - N lifts
+ - M building floors
+ 
+The system objectives are:
+
+ - Pick-up users from the floor they're located
+ - Drop-down users in the floor they request
+ - Save energy, i.e. non stop in floors where any user wants to stop or where there's no user to be picked-up
+ 
+ ## These are my assumptions for this project
 
 My project is all in one piece on purpose, to facilitate the reviewing task. It could be done in modules, and there are
 mark comments indicating which pieces could be extracted from main.go.
